@@ -1,0 +1,107 @@
+/* Home Section */
+
+.menu{
+    background: #6B1BF2;
+}
+ul{
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
+ul li{
+    display: inline;
+    font-size: 50px;
+    padding: 10px 20px;
+}
+ul li a{
+      text-decoration: none;
+    color: yellow;
+}
+
+ul li:hover a{
+    background: black;
+    color:white;
+}
+.head{
+    color: red;
+}
+.img1 img{
+    height: 500px;
+    width: 1350px;
+}
+.caption{
+    text-align: center;
+    text-decoration: underline;
+    color:blue;
+}
+.title{
+    color: red;
+}
+.card div{
+    height: 350px;
+    width: 400px;
+    border: 5px solid #6B1BF2;
+    border-radius: 10px;
+    display: inline;
+    float:left;
+    overflow: scroll;
+    padding:5px;
+    margin-right: 13px;
+    margin-left: 11px;
+    margin-top: 15px;
+    font-size: 30px;
+    text-align: center;
+}
+
+/* About section */
+
+.caption{
+    border: 3px solid blue;
+    border-radius: 6px;
+    text-align: center;
+    font-style: inherit;
+    color: red;
+}
+.font{
+    font-size: 30px;
+}
+.font div:nth-child(odd){
+    color:#6B1BF2;
+}
+
+/* Contact Section */
+
+.contact-area{
+    height: 600px;
+    background-color: blue;
+    border: 1px solid black;
+    text-align: center;
+}
+.contact-area label{
+    display: block;
+    font-size: 50px;
+    color: yellow;
+}
+.contact-area input{
+    font-size: 50px;
+    border-radius: 20px;
+}
+.contact-area a{
+    display: block
+    ;
+}
+.contact-area input:focus{
+    font-size: 60px;
+    border-radius: 20px;
+}
+#msg{
+    border-radius: 20px;
+}
+.submit{
+    margin-top: 10px;
+    border-radius: 20px;
+}
+#btn:hover{
+    color: yellow;
+    background-color: red;
+}
